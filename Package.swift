@@ -17,6 +17,7 @@ let package = Package(
         .target(name: "ISO"),
         .target(name: "Media"),
         .target(name: "Util"),
+        .target(name: "FLV"),
         .target(name: "Net", dependencies: ["Codec", "Extension", "ISO", "Media", "Util"]),
         .target(name: "HTTP", dependencies: ["Net"]),
         .target(name: "RTMP", dependencies: ["Net", "FLV"])
