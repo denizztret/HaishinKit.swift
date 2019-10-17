@@ -14,7 +14,6 @@ let package = Package(
     targets: [
         .target(name: "Codec"),
         .target(name: "Extension"),
-        .target(name: "HTTP"),
         .target(name: "ISO"),
         .target(name: "Media"),
         .target(name: "Util"),
